@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.loginpage.ui.SellBooks.BookDetail"
+    android:padding="5dp"
+    >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="10dp"
+
+        />
+
+
+    <Button
+        android:id="@+id/buttonchoose"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Take Picture"
+        android:textSize="15sp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:background="#000000"
+        android:textColor="#FFFF"
+        android:drawableLeft="@drawable/ic_photo_camera_black_24dp"
+        />
+    <TextView
+        android:id="@+id/chooseimg"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Upload from gallery"
+        android:textSize="12sp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="59dp"
+
+        android:textColor="#000000"
+
+        />
+
+
+    <TextView
+        android:id="@+id/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Name"
+        android:textSize="15sp"
+        android:textColor="#5E5252"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="90dp"/>
+
+    <EditText
+        android:id="@+id/editTextb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="15sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"/>
+
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/Text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Author"
+        android:textSize="15sp"
+        android:textColor="#5E5252"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="150dp"/>
+
+    <EditText
+        android:id="@+id/editTexta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="15sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="160dp"/>
+
+    <TextView
+        android:id="@+id/Text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Publisher"
+        android:textSize="15sp"
+        android:textColor="#5E5252"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="210dp"/>
+
+    <EditText
+        android:id="@+id/editTextp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="15sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="220dp"/>
+
+    <TextView
+        android:id="@+id/Text4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edition"
+        android:textSize="15sp"
+        android:textColor="#5E5252"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="270dp"/>
+
+    <EditText
+        android:id="@+id/editTexte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="15sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="280dp"/>
+
+    <TextView
+        android:id="@+id/Text5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Price*"
+        android:textSize="15sp"
+        android:textColor="#5E5252"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="330dp"/>
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="15sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="340dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Give it for free"
+        android:textSize="15sp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="330dp"/>
+
+
+    <TextView
+        android:id="@+id/Text6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="15sp"
+        android:textColor="#5E5252"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="390dp"/>
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="15sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="410dp"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/spinner"
+        android:layout_marginTop="460dp"
+        android:layout_marginStart="260dp"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="is book related to Academic*"
+        android:textSize="15sp"
+        android:textColor="#5E5252"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="460dp"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/spinner2"
+        android:layout_marginTop="510dp"
+        android:layout_marginStart="220dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book Type*"
+        android:textSize="15sp"
+        android:textColor="#5E5252"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="510dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="570dp"
+        />
+
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Next"
+        android:drawableRight="@drawable/ic_arrow_forward_black_24dp"
+        android:textColor="#FFFF"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="575dp"
+        android:background="#000000"
+        />
+
+    <Button
+        android:id="@+id/button_done"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Done"
+        android:drawableLeft="@drawable/ic_done_all_black_24dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="575dp"
+        android:background="#F8F8F8"
+        />
+
+
+
+
+</RelativeLayout>

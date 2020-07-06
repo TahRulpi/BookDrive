@@ -17,7 +17,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:background="@drawable/book"
-        android:alpha="0.9"
+        android:alpha="0.8"
         android:scaleType="centerCrop"
         android:layout_height="match_parent" />
 

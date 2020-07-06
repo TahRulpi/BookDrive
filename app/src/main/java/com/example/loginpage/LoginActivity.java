@@ -106,7 +106,7 @@ public class LoginActivity extends AppCompatActivity {
                         }
                         else {
 
-                            Intent intent = new Intent(LoginActivity.this,BookViewActivity.class);
+                            Intent intent = new Intent(LoginActivity.this,ViewActivity.class);
                             startActivity(intent);
                             finish();
                         }
